@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS-Question-9</title>
+    <style>
+        .main-outer-div {
+            background-color: rgb(134, 173, 173);
+            height: 500px;
+            padding: 15px;
+        }
+
+        .header-div {
+            background-color: cyan;
+            height: 50px;
+            text-align: center;
+            font-size: 1.5rem;
+            color: #fff;
+        }
+
+        .outer-div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+        }
+
+        .Aside-div {
+            background-color: rgb(96, 159, 96);
+            height: 400px;
+            width: 250px;
+            font-size: 1.5rem;
+            color: #fff;
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 20px;
+        }
+
+        .article-div {
+            background-color: rgb(161, 130, 136);
+            height: 400px;
+            width: 950px;
+            text-align: center;
+            font-size: 1.5rem;
+            color: #fff;
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding-bottom: 20px;
+        }
+
+        .images-div {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 20px;
+            align-content: flex-end;
+        }
+
+        .image-div {
+            background-color: rgb(194, 194, 170);
+            height: 250px;
+            width: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <p> given layout using grid or flex see</p> -->
+    <div class="main-outer-div">
+        <div class="header-div">Header</div>
+        <div class="outer-div">
+            <div class="Aside-div">
+                Aside
+            </div>
+            <div class="article-div">
+                Article
+                <div class="images-div">
+                    <div class="image-div">image1</div>
+                    <div class="image-div">image2</div>
+                    <div class="image-div">image3</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
