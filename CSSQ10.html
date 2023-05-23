@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Question-10</title>
+    <style>
+        .first-div{
+           display: flex;
+           flex-direction: row;
+           flex-wrap: wrap;
+           gap: 20px;
+           margin-bottom: 10px;
+        }
+        .inner-first-div {
+            background-color: rgb(10, 102, 201);
+            height: 200px;
+            width: 250px;
+            flex: 1;
+        }
+        .inner-second-div {
+            background-color: rgb(133, 115, 115);
+            height: 200px;
+            width: 250px;
+            flex: 3;
+        }
+        .second-div{
+            background-color: rgb(73, 65, 65);
+            height: 300px;
+            width: auto;
+            margin-bottom: 10px;
+        }
+        .third-div{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;     
+        }
+        .third-inner-first-div, .third-inner-second-div, .third-inner-third-div{
+            background-color: cyan;
+            height: 300px;
+            width: 350px;
+            margin-right: 10px;
+        }
+        .last-div{
+            background-color: rgb(133, 115, 115);
+            height: 200px;
+            width: auto;
+            margin-top: 10px;
+        }
+        @media only screen  and (min-device-width : 320px) and (max-device-width : 480px) {
+            .inner-first-div {
+            height: 100px;
+            width: 250px;
+            flex: 2;
+            }  
+            
+            .inner-second-div {
+            height: 100px;
+            width: 250px;
+            
+            }
+
+            .third-div{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;     
+            }
+            
+            .third-inner-first-div, .third-inner-second-div, .third-inner-third-div{
+            background-color: cyan;
+            height: 200px;
+            width: auto;
+            margin-bottom: 10px;
+            }   
+        }
+    </style>
+</head>
+<body>
+    <div class="main-outer-div">
+        <div class="first-div">
+            <div class="inner-first-div"></div>
+            <div class="inner-second-div"></div>
+        </div>
+        <div class="second-div"></div>
+        <div class="third-div">
+            <div class="third-inner-first-div"></div>
+            <div class="third-inner-second-div"></div>
+            <div class="third-inner-third-div"></div>           
+        </div>
+        <div class="last-div"></div>
+    </div>
+</body>
+</html>
