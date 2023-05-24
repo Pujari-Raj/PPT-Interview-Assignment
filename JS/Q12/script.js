@@ -54,8 +54,6 @@ document.addEventListener('DOMContentLoaded', function () {
         //  adding delete button for new blog
         const deleteButton = li.getElementsByClassName('delete-btn')[0];
         deleteButton.addEventListener('click', deleteBlog);
-
-        
     }
 
     // Function to delete a blog
