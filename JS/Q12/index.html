@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h2 class="web_heading">Blog App</h2>
+
+    <div class="container">
+        <form id="add-blog-form">
+            <p class="add_heading">Add a New Blog</p>
+            <label for="title">Title Of Blog:</label>
+            <input type="text" id="title" placeholder="Title Of Blog" required>
+            <label for="content">Content Of Blog:</label>
+            <textarea id="body" placeholder="Content Of Blog" required></textarea>
+            <button type="submit" class="add_btn">Add New Blog</button>
+        </form>
+
+        <h2>All Blogs</h2>
+        <ol id="blog-list"></ol>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.web_heading {
+    text-align: center;
+}
+
+.add_heading {
+    font-size: 1.3rem;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.add_btn {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #4caf50;
+    color: white;
+    border: 2px solid #4caf50;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.add_btn:hover{
+    background-color: #45a049;
+}
+
+.delete_btn {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(230, 10, 54);
+    color: white;
+    border: 2px solid rgb(230, 10, 54);
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.delete_btn:hover{
+    background-color: rgba(255, 0, 51, 0.783);
+    border: 2px solid rgba(255, 0, 51, 0.783);
+}
+
+input[type=text], textarea {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+input[type=text], textarea:focus {
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}    
